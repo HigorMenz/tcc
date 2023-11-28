@@ -1,0 +1,10 @@
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YWZkNjEzN2M3OTZiNDgyZTZkNTRmYSIsImlhdCI6MTY4OTI0NTIwM30.zxGI3giBdA-5OwoAOdtNTwJJEPJ9lev0uSp7P8t2gtM
+
+POST http://localhost:4000/signup
+Content-Type: application/json
+
+{
+    "fullname": "testUser2",
+    "email": "test2@gmail.com",
+    "password": "S123456s"
+}
